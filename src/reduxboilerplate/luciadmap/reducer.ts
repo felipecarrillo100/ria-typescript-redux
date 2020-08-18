@@ -3,14 +3,10 @@ import { Actions } from '../actions';
 import { Map } from '@luciad/ria/view/Map';
 
 export interface MapReduxState {
-  projection: string;
-  aixmExplorer: boolean;
   map: Map | null;
 }
 
 const initState: MapReduxState = {
-  projection: 'crs:84',
-  aixmExplorer: false,
   map: null,
 };
 
