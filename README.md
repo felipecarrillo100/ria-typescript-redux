@@ -1,3 +1,6 @@
+## Description
+As the name says,  this npm/wenpack project provides all the basic setup for a React/Typescript Project with a fully functional Redux boilerplate
+
 ## How to install:
 Clone it from Github
 
