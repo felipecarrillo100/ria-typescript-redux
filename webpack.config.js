@@ -41,16 +41,6 @@ module.exports = (env, argv) => {
                     }
                 },
                 {
-                    test: /\.tsx?$/,
-                    exclude: /node_modules/,
-                    include: /src/,               /* (1) This line is important with LuciadRIA */
-                    enforce: 'pre',
-                    loader: 'eslint-loader',
-                    options: {
-                        fix: true
-                    }
-                },
-                {
                     test: /\.html$/,
                     use: [
                         {
